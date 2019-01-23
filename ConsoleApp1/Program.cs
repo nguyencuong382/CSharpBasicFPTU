@@ -12,7 +12,8 @@ namespace MainConsole
         static void Main(string[] args)
         {
             TestMyCollection testMyCollection = new TestMyCollection();
-            testMyCollection.test();
+            //testMyCollection.test();
+            testMyCollection.testReadCollection();
 
 
             //Input i = new Input();

@@ -12,12 +12,12 @@ namespace MainConsole
 
         public int ID { get; set; }
         public string Name { get; set; }
+        public int Type { get; set; }
 
         public Auto()
         {
 
         }
-
 
         public Auto(int id, string name, double basePrice)
         {
@@ -25,6 +25,8 @@ namespace MainConsole
             this.Name = name;
             this.basePrice = basePrice;
         }
+
+
 
         public void setPrice(double value)
         {
@@ -61,11 +63,12 @@ namespace MainConsole
 
         public Truck()
         {
-
+            this.Type = 2;
         }
 
         public Truck(int id, string name, double basePrice, double weight, double addedPrice) : base(id, name, basePrice)
         {
+            this.Type = 2;
             this.Weight = weight;
             this.AddedPrice = addedPrice;
         }
@@ -92,6 +95,18 @@ namespace MainConsole
     {
         public int SeatNo { get; set; }
         public double PricePerSeat { get; set; }
+
+        public Car()
+        {
+            this.Type = 1;
+        }
+
+        public Car(int id, string name, double basePrice, int seatNo, double pricePerSeeat) : base (id, name, basePrice)
+        {
+            this.Type = 1;
+            this.SeatNo = seatNo;
+            this.PricePerSeat = pricePerSeeat;
+        }
 
         public override void Display()
         {
