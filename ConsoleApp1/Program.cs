@@ -11,21 +11,24 @@ namespace MainConsole
     {
         static void Main(string[] args)
         {
-            //TestMyCollection testMyCollection = new TestMyCollection();
-            //testMyCollection.test();
-            
+            TestMyCollection testMyCollection = new TestMyCollection();
+            testMyCollection.test();
 
-            Input i = new Input();
-            try
-            {
-                i.inputAuto();
-            }
-            catch (MyException ex)
-            {
-                Console.WriteLine("Loi Roi");
-                Console.WriteLine(ex.Message);
-            }
 
+            //Input i = new Input();
+            //try
+            //{
+            //    i.inputAuto();
+            //}
+            //catch (MyException ex)
+            //{
+            //    Console.WriteLine("Loi Roi");
+            //    Console.WriteLine(ex.Message);
+            //}
+
+
+            //TestEventDelegate e = new TestEventDelegate();
+            //e.test();
             Console.ReadLine();
         }
     }

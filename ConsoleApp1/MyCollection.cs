@@ -9,6 +9,13 @@ namespace MainConsole
 {
     public class MyCollection<T> where T : Auto
     {
+        public delegate void LengthChange();
+        public delegate void OrderChange();
+
+        public event LengthChange lengthChange;
+        public event OrderChange orderChange;
+
+
         private List<T> arr_;
 
         public MyCollection()
@@ -27,7 +34,8 @@ namespace MainConsole
             }
 
             this.arr_.Add(value);
-
+            if(lengthChange != null)
+                lengthChange();
             return true;
         }
 
@@ -38,9 +46,12 @@ namespace MainConsole
                 if (value.ID == item.ID)
                 {
                     this.arr_.Remove(item);
+                    if(lengthChange != null)
+                        lengthChange();
                     return true;
                 }
             }
+
             return false;
         }
 
@@ -67,9 +78,26 @@ namespace MainConsole
             }
         }
 
+
+
         public void Sort()
         {
+            List<T> tmp_ = new List<T>(arr_);
+            
             this.arr_.Sort();
+
+            if(orderChange != null)
+            {
+                for (int i = 0; i < arr_.Count; i++)
+                {
+                    if (tmp_[i].ID != arr_[i].ID)
+                    {
+                        orderChange();
+                        break;
+                    }
+                }
+            }
+           
         }
 
         public void Sort(IComparer<T> i)
@@ -94,6 +122,15 @@ namespace MainConsole
         public void test()
         {
             MyCollection<Auto> autos = new MyCollection<Auto>();
+
+            autos.orderChange += () => {
+                Console.WriteLine("Order has changed");
+            };
+
+            autos.lengthChange += () =>
+            {
+                Console.WriteLine("Lenght has changed");
+            };
 
             autos.Add(new Auto(6, "Nguyen CUong", 13.4));
             autos.Add(new Auto(2, "Phan Thi", 12.5));

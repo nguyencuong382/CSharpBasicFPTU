@@ -4,3 +4,4 @@ C:\Users\Admin\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\MainConsole.pdb
 C:\Users\Admin\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\MainConsole.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\MainConsole.exe
 C:\Users\Admin\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\MainConsole.pdb
+C:\Users\Admin\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\MainConsole.csprojAssemblyReference.cache
