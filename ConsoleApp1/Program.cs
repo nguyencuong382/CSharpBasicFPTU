@@ -28,7 +28,7 @@ namespace MainConsole
             //}
 
 
-            //TestEventDelegate e = new TestEventDelegate();
+            //testeventdelegate e = new testeventdelegate();
             //e.test();
             Console.ReadLine();
         }

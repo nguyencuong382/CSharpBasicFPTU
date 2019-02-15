@@ -256,9 +256,11 @@ namespace MainConsole
 
         public void testReadCollection()
         {
+            string startupPath = Environment.CurrentDirectory;
+
             AutoCollection autoCollection = new AutoCollection();
 
-            autoCollection.ReadFile(@"C:\Users\Admin\Desktop\test.txt");
+            autoCollection.ReadFile(startupPath + @"/../../static/input.txt");
 
             autoCollection.Display();
 
@@ -267,7 +269,8 @@ namespace MainConsole
             autoCollection.Add(new Car(8, "Fork", 235, 3, 23));
             autoCollection.Add(new Truck(2, "DirFor", 23, 232, 434));
 
-            autoCollection.WriteFile(@"C:\Users\Admin\Desktop\test2.txt");
+            autoCollection.WriteFile(startupPath + @"/../../static/output.txt");
+            Console.WriteLine("Write to file sucessfully!");
 
         }
     }
