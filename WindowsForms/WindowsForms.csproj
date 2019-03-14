@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,16 +47,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form\EditProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form\EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CategoryDAO.cs" />
+    <Compile Include="Model\OrderDAO.cs" />
+    <Compile Include="Model\SupplierDAO.cs" />
+    <Compile Include="Model\_DAO.cs" />
+    <Compile Include="Model\ProductDAO.cs" />
+    <Compile Include="Form\DataSource_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DataSource_.Designer.cs">
+      <DependentUpon>DataSource_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppContext\DBContext.cs" />
+    <Compile Include="Entity\Entities.cs" />
+    <Compile Include="Form\AddDeleteButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AddDeleteButton.Designer.cs">
+      <DependentUpon>AddDeleteButton.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form\EditProduct.resx">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DataSource_.resx">
+      <DependentUpon>DataSource_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AddDeleteButton.resx">
+      <DependentUpon>AddDeleteButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +101,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\MainConsole.Auto.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,7 +113,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="AppContext\App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\MainConsole.csproj">
+      <Project>{b2c2b150-edbe-4941-a3a4-75e02ca1e00c}</Project>
+      <Name>MainConsole</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

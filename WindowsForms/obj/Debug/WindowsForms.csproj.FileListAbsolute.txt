@@ -8,3 +8,10 @@ C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.cspr
 C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.exe
 C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.pdb
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\bin\Debug\MainConsole.exe
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\bin\Debug\MainConsole.pdb
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\bin\Debug\MainConsole.exe.config
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.DataSource_.resources
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.csproj.CopyComplete
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.AddProduct.resources
+C:\Users\Admin\source\repos\ConsoleApp1\WindowsForms\obj\Debug\WindowsForms.EditProduct.resources
