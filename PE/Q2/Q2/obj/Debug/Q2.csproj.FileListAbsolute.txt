@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\bin\Debug\Q2.exe.config
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\bin\Debug\Q2.exe
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\bin\Debug\Q2.pdb
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.Properties.Resources.resources
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.exe
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.pdb
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.CorporationListForm.resources
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q2\Q2\obj\Debug\Q2.frmEdit.resources

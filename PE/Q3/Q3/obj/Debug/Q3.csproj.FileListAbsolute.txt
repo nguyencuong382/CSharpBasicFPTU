@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\bin\Q3.dll.config
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\bin\Q3.dll
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\bin\Q3.pdb
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\obj\Debug\Q3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\obj\Debug\Q3.dll
+C:\Users\Admin\Desktop\05630_CuongNM_PRN292\Q3\Q3\obj\Debug\Q3.pdb
